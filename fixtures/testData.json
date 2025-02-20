@@ -1,0 +1,53 @@
+{
+  "baseUrl": "https://saucedemo.com",
+  "validUser": {
+    "userName": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalidUser": {
+    "userName": "standard_user",
+    "password": "password"
+  },
+  "messages": {
+    "expectedLoginError": "Username and password do not match",
+    "loginError": "Error Message do not match"
+  },
+  "assertTitle": "Swag Labs",
+  "titleError": "Title does not include 'Swag Labs'",
+  "log": {
+    "loginSuccess": "Testing Login Success!",
+    "loginFailed": "Testing Login Failed, Success!"
+  },
+  "inventory": {
+    "notif": "2",
+    "errNotif": "Product quantity does not match",
+    "testPassed": "Add items to cart test Success!"
+  },
+  "cart": {
+    "product1": "Sauce Labs Backpack",
+    "errProduct1": "Missing Sauce Labs Backpack",
+    "product2": "Sauce Labs Fleece Jacket",
+    "errProduct2": "Both products added to Cart successfully",
+    "testPassed": "Both products added to Cart successfully"
+  },
+  "checkout": {
+    "firstname": "Galih",
+    "lastname": "Bayu",
+    "postal": "Semarang 1234567890",
+    "stepOne": {
+      "expextedMessage": "Error: First Name is required",
+      "errorMessage": "Checkout step one missed",
+      "testPassed": "Checkout step one failed, successfully!"
+    },
+    "stepTwo": {
+      "expextedMessage": "Checkout: Overview",
+      "errorMessage": "Page title do not match",
+      "testPassed": "Checkout step two success, open Overview Page"
+    },
+    "complete": {
+      "expextedMessage": "Thank you for your order!",
+      "errorMessage": "Checkout failed",
+      "testPassed": "Checkout completed!"
+    }
+  }
+}
